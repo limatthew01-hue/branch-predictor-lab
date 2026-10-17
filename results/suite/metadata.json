@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "seed": 7,
+  "events_per_workload": 4096,
+  "warmup_branches": 256,
+  "sizes": [
+    4,
+    16,
+    64,
+    256
+  ],
+  "history_bits": "log2(entries)",
+  "penalty_cycles_per_miss": 5,
+  "trace_sha256": {
+    "loop": "c88a3d59b2cae8c01c7af677c6380a7a645e6a82651861e8b456232c66d18abd",
+    "alternating": "245f315fb5e93fbc9a47a0f808d0a6c675f1f729f6426c03d27e6106ffc67bc3",
+    "correlated": "5eafd43d1dd4d196e3630967c3d7a59354ea3cd0919ddc88a7ac269e466c16b5",
+    "aliasing": "d3ed32694437f880bd50a0c0c3a109d94eb87133cb9f9a933692189c87bf1d58",
+    "random": "151711bb9654ba518daa88b23e30b05e4ffb84a35578bbc35d6033c2e8dc1f18"
+  },
+  "update": "predict, then immediate actual-outcome update"
+}

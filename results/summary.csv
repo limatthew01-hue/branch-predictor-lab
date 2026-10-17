@@ -1,0 +1,5 @@
+entries,predictor,branches,warmup_branches,state_bits,mispredictions,accuracy,penalty_cycles_only
+16,Static not taken,144,0,0,108,0.25,540
+16,One-bit BHT,144,0,16,61,0.5763888888888888,305
+16,Two-bit BHT,144,0,32,49,0.6597222222222222,245
+16,Gshare,144,0,36,38,0.7361111111111112,190

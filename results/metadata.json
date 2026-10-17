@@ -1,0 +1,10 @@
+{
+  "input": "example_trace.csv",
+  "trace_sha256": "449b33d121815c2c3ec7a393001ca608afa0b8f538243b7081ce8164e4e9acf0",
+  "total_branch_events": 144,
+  "entries": 16,
+  "penalty_cycles_per_miss": 5,
+  "warmup_branches": 0,
+  "alignment_bytes": 4,
+  "update": "immediate actual outcome"
+}
